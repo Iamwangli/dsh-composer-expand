@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Composer expand input",
+    "description": "Adds a button beside the composer Send action that enlarges the input box and turns Enter into a new line (send by clicking) until toggled back."
+  }
+}
