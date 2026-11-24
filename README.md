@@ -1,5 +1,7 @@
 # dsh-composer-expand
 
+English | [中文](README.zh.md)
+
 Adds a small toggle button beside the composer **Send** action in DeepSeek Harness (`dsh`) Web.
 
 - Click the button to **enlarge the input box** (it lifts the draft's max-height cap and raises the minimum height, so even an empty box grows).
