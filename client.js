@@ -35,6 +35,7 @@ window.__ModuleLoader__.load({
     function ExpandIcon() {
       return h('svg', {
         viewBox: '0 0 16 16', width: 14, height: 14, fill: 'none', 'aria-hidden': true,
+        style: { transform: 'translateY(1px)' },
       },
         h('path', { d: 'M6 2H3a1 1 0 0 0-1 1v3', stroke: 'currentColor', strokeWidth: 1.5, strokeLinecap: 'round', strokeLinejoin: 'round' }),
         h('path', { d: 'M10 2h3a1 1 0 0 1 1 1v3', stroke: 'currentColor', strokeWidth: 1.5, strokeLinecap: 'round', strokeLinejoin: 'round' }),
@@ -46,6 +47,7 @@ window.__ModuleLoader__.load({
     function CollapseIcon() {
       return h('svg', {
         viewBox: '0 0 16 16', width: 14, height: 14, fill: 'none', 'aria-hidden': true,
+        style: { transform: 'translateY(1px)' },
       },
         h('path', { d: 'M3 6V3h3', stroke: 'currentColor', strokeWidth: 1.5, strokeLinecap: 'round', strokeLinejoin: 'round' }),
         h('path', { d: 'M13 6V3h-3', stroke: 'currentColor', strokeWidth: 1.5, strokeLinecap: 'round', strokeLinejoin: 'round' }),
