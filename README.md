@@ -4,7 +4,13 @@ English | [中文](README.zh.md)
 
 Adds a small toggle button beside the composer **Send** action in DeepSeek Harness (`dsh`) Web.
 
-![Expanded composer with the toggle button beside Send](dsh-composer-expand.png)
+**Default** — the composer is one line tall, and the new button sits beside Send:
+
+![Default composer with the new toggle button](dsh-composer-collapsed.png)
+
+**Enlarged** — click the button for a roomy, multi-line input box:
+
+![Enlarged composer with the toggle button beside Send](dsh-composer-expanded.png)
 
 - Click the button to **enlarge the input box** (it lifts the draft's max-height cap and raises the minimum height, so even an empty box grows).
 - While enlarged, **Enter inserts a newline** instead of sending; send with the **Send** button or **Ctrl/Cmd+Enter**.
