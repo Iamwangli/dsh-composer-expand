@@ -35,7 +35,8 @@
     "icon.svg",
     "README.md",
     "README.zh.md",
-    "LICENSE"
+    "LICENSE",
+    "dsh-composer-expand.png"
   ],
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
